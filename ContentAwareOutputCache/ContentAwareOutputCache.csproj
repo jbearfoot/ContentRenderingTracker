@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="EPiServer.CMS.AspNet" Version="11.2.1" />
+    <ProjectReference Include="..\ContentRenderingTracker\ContentRenderingTracker.csproj" />
+  </ItemGroup>
+</Project>

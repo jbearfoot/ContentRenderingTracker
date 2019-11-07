@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContentRenderingTracker", "ContentRenderingTracker\ContentRenderingTracker.csproj", "{0793EF62-5EAE-48A9-964C-94F656ABC3C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContentAwareOutputCache", "ContentAwareOutputCache\ContentAwareOutputCache.csproj", "{2817BF56-80EB-42B4-B9A4-84DF9DB15487}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlloyWithOutputCacheAttribute", "AlloyWithOutputCacheAttribute\AlloyWithOutputCacheAttribute.csproj", "{62BDEF84-2BD8-4ADA-B055-BFEBE758C964}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisOutputCache", "RedisOutputCache\RedisOutputCache.csproj", "{B4177AE8-DB9D-4264-B72D-7285A9E2E432}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlloyWithRedisOutputCache", "AlloyWithRedisOutputCache\AlloyWithRedisOutputCache.csproj", "{C66B1DC8-BDD2-4157-97F7-51AB098CF965}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0793EF62-5EAE-48A9-964C-94F656ABC3C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0793EF62-5EAE-48A9-964C-94F656ABC3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0793EF62-5EAE-48A9-964C-94F656ABC3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0793EF62-5EAE-48A9-964C-94F656ABC3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2817BF56-80EB-42B4-B9A4-84DF9DB15487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2817BF56-80EB-42B4-B9A4-84DF9DB15487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2817BF56-80EB-42B4-B9A4-84DF9DB15487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2817BF56-80EB-42B4-B9A4-84DF9DB15487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62BDEF84-2BD8-4ADA-B055-BFEBE758C964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62BDEF84-2BD8-4ADA-B055-BFEBE758C964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62BDEF84-2BD8-4ADA-B055-BFEBE758C964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62BDEF84-2BD8-4ADA-B055-BFEBE758C964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4177AE8-DB9D-4264-B72D-7285A9E2E432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4177AE8-DB9D-4264-B72D-7285A9E2E432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4177AE8-DB9D-4264-B72D-7285A9E2E432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4177AE8-DB9D-4264-B72D-7285A9E2E432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C66B1DC8-BDD2-4157-97F7-51AB098CF965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C66B1DC8-BDD2-4157-97F7-51AB098CF965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C66B1DC8-BDD2-4157-97F7-51AB098CF965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C66B1DC8-BDD2-4157-97F7-51AB098CF965}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2BC19FF-3EDE-42E3-BF13-D24EDE8C9F4B}
+	EndGlobalSection
+EndGlobal
